@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:importantForAccessibility="yes"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="This is title area to call"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:layout_marginStart="5dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/horizontalRV"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+</layout>
